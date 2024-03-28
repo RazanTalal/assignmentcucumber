@@ -13,6 +13,7 @@ public class HomeworkStepDefinitions {
     public void user_goes_to_the(String pageUrl) {
         driver = new ChromeDriver();
 
+
         // Navigate to the page
         driver.get(pageUrl);
     }
