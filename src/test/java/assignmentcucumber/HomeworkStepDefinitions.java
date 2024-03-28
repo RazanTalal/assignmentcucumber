@@ -16,6 +16,7 @@ public class HomeworkStepDefinitions {
 
         // Navigate to the page
         driver.get(pageUrl);
+
     }
 
     @Then("user waits for 5 seconds")
